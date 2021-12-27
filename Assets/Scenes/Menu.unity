@@ -270,14 +270,22 @@ RectTransform:
   m_GameObject: {fileID: 261925734}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 19.7}
+<<<<<<< HEAD
   m_LocalScale: {x: 3.045303, y: 3.594485, z: 1}
+=======
+  m_LocalScale: {x: 3.045303, y: 3.7489154, z: 1}
+>>>>>>> movement
   m_Children: []
   m_Father: {fileID: 447762824}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -1, y: -31}
+=======
+  m_AnchoredPosition: {x: -1, y: -37}
+>>>>>>> movement
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261925736
@@ -464,7 +472,7 @@ RectTransform:
   m_GameObject: {fileID: 465091565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.036195, y: 3.7871287, z: 1}
+  m_LocalScale: {x: 9.036195, y: 4.02231, z: 1}
   m_Children: []
   m_Father: {fileID: 447762824}
   m_RootOrder: 1
@@ -723,7 +731,11 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+<<<<<<< HEAD
           m_StringArgument: vlaamsbelangCity
+=======
+          m_StringArgument: vlaamsbrelang City
+>>>>>>> movement
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &679252493
@@ -950,7 +962,11 @@ RectTransform:
   m_GameObject: {fileID: 1617420067}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 19.7}
+<<<<<<< HEAD
   m_LocalScale: {x: 9.674767, y: 4.0342994, z: 1}
+=======
+  m_LocalScale: {x: 9.937268, y: 4.263851, z: 1}
+>>>>>>> movement
   m_Children: []
   m_Father: {fileID: 447762824}
   m_RootOrder: 0
