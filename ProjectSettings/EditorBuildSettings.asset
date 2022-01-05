@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 736645360846cb442b9b25234a4247f7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/vlaamsbelangCity.unity
     guid: ae806bd699d0d9047becc7b923cf418e
   - enabled: 1
@@ -17,3 +17,4 @@ EditorBuildSettings:
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 660cd07da085b77439ef636506439bc8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dd992ab284b6db74ab91c5ee6c2c3730, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: cd087fe541fb1bd458169ea30e9b85d4, type: 2}
