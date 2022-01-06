@@ -9,7 +9,11 @@ public class menu : MonoBehaviour
     // Start is called before the first frame update
     public void LoadScene( string scene)
     {
-       
+        var AllScene = SceneManager.GetAllScenes();
+        foreach (var currentScene in AllScene)
+        {
+            SceneManager.UnloadScene(currentScene);
+        }
         SceneManager.LoadScene(scene);
     }
 

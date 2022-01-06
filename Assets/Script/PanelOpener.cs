@@ -8,7 +8,11 @@ public class PanelOpener : MonoBehaviour
     
     public void OpenPanel()
     {
-        if (Panel != null)
+        if (Panel.active)
+        {
+            Panel.SetActive(false);
+        }
+        else if (Panel != null)
         {
             Panel.SetActive(true);
         }
