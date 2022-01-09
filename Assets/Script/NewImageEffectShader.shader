@@ -35,7 +35,7 @@ Shader "Custom/Post Outline"
                           
             float4 frag(v2f i) : COLOR 
             {
-                int NumberOfIterations=_kernelWidth;
+                float NumberOfIterations=_kernelWidth;
 				
                 float TX_x=_MainTex_TexelSize.x;
                 float TX_y=_MainTex_TexelSize.y;
@@ -102,9 +102,10 @@ Shader "Custom/Post Outline"
                     return tex2D(_SceneTex,i.uvs.xy);
                 }
 
-                int NumberOfIterations=_kernelWidth;
+                float NumberOfIterations=_kernelWidth;
                 float4 ColorIntensityInRadius=0;
 
+                [unroll]
                 for(int k=0;k < NumberOfIterations;k+=1)
                 {
                         ColorIntensityInRadius+=kernel[k]*tex2D(

@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 736645360846cb442b9b25234a4247f7
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/OpenVld.unity
     guid: fcf690e6498c89248829d97db9ad8924
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/vlaamsbelangCity.unity
     guid: ae806bd699d0d9047becc7b923cf418e
   - enabled: 0

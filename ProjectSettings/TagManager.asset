@@ -3,17 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - stealingpoint
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Outline
+  - 
   - Water
   - UI
   - mini
-  - 
-  - 
+  - Post-processing
+  - Outline
   - 
   - 
   - 
@@ -38,9 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Post-processing
+    uniqueID: 1352718057
     locked: 0
   - name: Outline
-    uniqueID: 1024593371
+    uniqueID: 2952707067
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

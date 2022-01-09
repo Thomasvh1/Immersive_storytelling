@@ -3,7 +3,9 @@ guid: c81bd84d01e29304fa7ce0b98550b45b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - DrawAsSolidColor: {fileID: 4800000, guid: 586b4adcb5a90774abc4112a50ee9298, type: 3}
+  - Outline: {fileID: 4800000, guid: bf553cb21d2428148a6bddcef607a9e7, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
