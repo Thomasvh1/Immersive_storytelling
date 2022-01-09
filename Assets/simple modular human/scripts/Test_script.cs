@@ -57,28 +57,8 @@ public class Test_script : MonoBehaviour
         Stealing_points.Clear();
         pick_up_points.Clear();
 
-        GameObject[] waypointsFind = GameObject.FindGameObjectsWithTag("waypoint");
-        GameObject[] SittingpointsFind = GameObject.FindGameObjectsWithTag("sittingpoint");
-        GameObject[] stealingpointsFind = GameObject.FindGameObjectsWithTag("stealingpoint");
-        GameObject[] pick_up_pointsFind = GameObject.FindGameObjectsWithTag("pickuppoint");
-
-        foreach(GameObject g in waypointsFind)
-        {
-            way_points.Add(g);
-        }
-        foreach (GameObject g in SittingpointsFind)
-        {
-            Sitting_points.Add(g);
-        }
-        foreach (GameObject g in stealingpointsFind)
-        {
-            Stealing_points.Add(g);
-        }
-        foreach (GameObject g in pick_up_pointsFind)
-        {
-            pick_up_points.Add(g);
-        }
-
+       
+        
 
     }
 
@@ -263,7 +243,7 @@ public class Test_script : MonoBehaviour
                 {
                     Debug.Log("going to run");
                     agent.speed = run_speed;
-                    agent.SetDestination(aim_point.transform.position);
+                    
                     ani.SetInteger("arms", 2);
                     ani.SetInteger("legs", 2);
                 }
